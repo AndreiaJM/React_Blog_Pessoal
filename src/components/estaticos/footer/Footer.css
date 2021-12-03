@@ -1,0 +1,23 @@
+.box1{
+    height: 120px
+}
+
+.redes{
+    font-size: 60px !important;
+    color: white ;
+}
+
+.box2{
+    background-color: #303F9F; 
+    height: 60px;
+}
+
+.textos{
+    color: white;
+}
+
+.cor-footer{
+    background: rgb(5,242,219);
+    background: linear-gradient(0deg, rgba(5,242,219,1) 0%, rgba(18,124,166,1) 100%);
+}
+

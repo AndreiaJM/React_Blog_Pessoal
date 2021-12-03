@@ -1,0 +1,13 @@
+.cursor{
+    cursor:pointer;
+    color: white;
+}
+
+.text-decoraton-none{
+    text-decoration: none;
+}
+
+.cor-nav-bar{
+    background: rgb(5,242,219);
+    background: linear-gradient(0deg, rgba(5,242,219,1) 0%, rgba(18,124,166,1) 100%);
+}
