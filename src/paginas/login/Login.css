@@ -1,20 +1,36 @@
 .textos1{
     font-weight: 'bold' !important;
+    color: black;
 }
 
 .imagem{
-    background-image: url(https://i.imgur.com/hg3of5c.jpg);
+    background-image: url(https://i.imgur.com/xugsSk9.png);
     background-repeat:no-repeat; 
     width:100vh; 
     min-height:100vh;
-    background-size: cover; 
+    background-size: 90%;
     background-position:center;
+    
+}
+
+.grid2{
+    background: rgb(250,255,139);
+background: -moz-linear-gradient(90deg, rgba(250,255,139,0.958420868347339) 0%, rgba(136,207,110,1) 34%, rgba(92,209,94,1) 61%, rgba(83,205,85,1) 82%, rgba(30,185,61,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(250,255,139,0.958420868347339) 0%, rgba(136,207,110,1) 34%, rgba(92,209,94,1) 61%, rgba(83,205,85,1) 82%, rgba(30,185,61,1) 100%);
+background: linear-gradient(90deg, rgba(250,255,139,0.958420868347339) 0%, rgba(136,207,110,1) 34%, rgba(92,209,94,1) 61%, rgba(83,205,85,1) 82%, rgba(30,185,61,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#faff8b",endColorstr="#1eb93d",GradientType=1);
 }
 
 .text-decoraton-none{
     text-decoration: none;
 }
 
-.grid1{
-    background-color: #faf1f2;
+.cor-botao{
+    background-color: #5cd15e !important;
 }
+
+Button:hover{
+    color: black !important;
+}
+
+

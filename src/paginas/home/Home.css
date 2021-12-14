@@ -1,18 +1,28 @@
 .caixa{
-    background-color: #3F51B5;
+    background: rgb(30,185,61);
+background: -moz-linear-gradient(90deg, rgba(30,185,61,1) 0%, rgba(92,209,94,1) 27%, rgba(83,205,85,1) 43%, rgba(85,215,87,1) 64%, rgba(250,255,139,1) 97%);
+background: -webkit-linear-gradient(90deg, rgba(30,185,61,1) 0%, rgba(92,209,94,1) 27%, rgba(83,205,85,1) 43%, rgba(85,215,87,1) 64%, rgba(250,255,139,1) 97%);
+background: linear-gradient(90deg, rgba(30,185,61,1) 0%, rgba(92,209,94,1) 27%, rgba(83,205,85,1) 43%, rgba(85,215,87,1) 64%, rgba(250,255,139,1) 97%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1eb93d",endColorstr="#faff8b",GradientType=1);
 }
 
 .titulo{
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 .botao{
-    border-color: white !important;
-    background-color: #3F51B5 !important;
-    color: white !important;
+    border-color: black !important;
+    background: #1eb93d !important;
 }
 
 .postagens{
     background-color: white;
+}
+.text-decoraton-none{
+    text-decoration: none;
+}
+
+.teste{
+    background-color: black;
 }

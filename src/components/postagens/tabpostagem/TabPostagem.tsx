@@ -13,8 +13,8 @@ function TabPostagem() {
     return (
         <>
             <TabContext value={value}>
-                <AppBar position="static">
-                    <Tabs centered indicatorColor="secondary" onChange={handleChange}>
+                <AppBar position="static" >
+                    <Tabs centered className='cor-tabpostagem' onChange={handleChange}>
                         <Tab label="Todas as postagens" value="1" />
                         <Tab label="Sobre-nós" value="2" />
                     </Tabs>
@@ -26,7 +26,7 @@ function TabPostagem() {
                 </TabPanel>
                 <TabPanel value="2">
                     <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className="titulo">Sobre-nós</Typography>
-                    <Typography variant="body1" gutterBottom color="textPrimary" align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ut eveniet natus totam et, voluptate dicta tempore alias, odio nobis non eius cupiditate minima inventore pariatur! Ipsum itaque consectetur voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo velit consequuntur suscipit fugiat, nam quis quod quaerat veritatis et, vel ratione beatae, facere neque! Quo animi porro voluptate saepe deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci, officia aut quidem dolorum deserunt iure dolorem doloribus velit nobis quas consequatur at ullam odit, nesciunt est nulla nihil excepturi!</Typography>
+                    <Typography variant="body1" gutterBottom color="textPrimary" align="justify">Podemos considerar a bioinformática como uma linha de pesquisa que envolve aspectos multidisciplinares e que surgiu a partir do momento em que se iniciou a utilização de ferramentas computacionais para a análise de dados genéticos, bioquímicos e de biologia molecular. A bioinformática envolve a união de diversas linhas de conhecimento – a ciência da computação, a engenharia de softwares, a matemática, a estatística e a biologia molecular – e tem como finalidade principal desvendar a grande quantidade de dados que vem sendo obtida através de seqüências de DNA e proteínas. Para o desenvolvimento de genomas completos, a informática é imprescindível e a biologia molecular moderna não estaria tão avançada hoje, não fossem os recursos computacionais existentes. </Typography>
                 </TabPanel>
             </TabContext>
         </>
