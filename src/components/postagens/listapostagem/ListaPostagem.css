@@ -1,3 +1,16 @@
 .text-decorator-none{
     text-decoration: none;
 }
+
+.botao-atualizar{
+    background-color: #F2CB07 !important;
+    color: #075473 !important;
+    font-weight: bolder !important;
+}
+
+.botao-deletar{
+    margin-right: 20px !important;
+    color: #F2CB07 !important;
+    background-color: #075473 !important;
+    font-weight: bolder !important;
+}

@@ -1,3 +1,16 @@
 .text-decorator-none{
     text-decoration: none;
 }
+
+.botao-atualizar-tema{
+    background-color: #F2CB07 !important;
+    color: #075473 !important;
+    font-weight: 'bold' !important;
+}
+
+.botao-deletar-tema{
+    margin-right: 20px !important;
+    color: #F2CB07 !important;
+    background-color: #075473 !important;
+    font-weight: 'bold' !important;
+}

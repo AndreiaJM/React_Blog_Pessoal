@@ -4,5 +4,18 @@
 
 .btnModal{
     border-color: black !important;
-    background-color: #faff8b !important ;
+    background-color: #075473 !important ;
+    color:#F2CB07 !important;
+    font-weight: bolder !important;
+    
+}
+.btnModal:hover{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(115, 115, 121);
+}
+
+.botao-atualizar{
+    background-color: #F2CB07 !important;
+    color: #075473 !important;
 }

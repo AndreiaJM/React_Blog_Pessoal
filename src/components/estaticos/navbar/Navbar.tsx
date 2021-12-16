@@ -45,14 +45,14 @@ function Navbar() {
                 <Box display="flex" justifyContent="start">
                     <Link to="/home" className="text-decorator-none">
                         <Box mx={1} className='cursor'>
-                            <Typography variant="h6" color="inherit">
+                            <Typography variant="h6" color="inherit" className='textos'>
                                 home
                             </Typography>
                         </Box>
                     </Link>
                     <Link to="/posts" className="text-decorator-none">
                         <Box mx={1} className='cursor'>
-                            <Typography variant="h6" color="inherit">
+                            <Typography variant="h6" color="inherit" className='textos'>
                                 postagens
                             </Typography>
                         </Box>
