@@ -1,9 +1,9 @@
 .caixa{
-    background: rgb(242,203,7);
-    background: -moz-linear-gradient(90deg, rgba(242,203,7,1) 0%, rgba(166,157,31,1) 33%, rgba(84,115,70,1) 67%, rgba(7,84,115,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(242,203,7,1) 0%, rgba(166,157,31,1) 33%, rgba(84,115,70,1) 67%, rgba(7,84,115,1) 100%);
-    background: linear-gradient(90deg, rgba(242,203,7,1) 0%, rgba(166,157,31,1) 33%, rgba(84,115,70,1) 67%, rgba(7,84,115,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2cb07",endColorstr="#075473",GradientType=1);
+    background: rgb(7,84,115);
+background: -moz-linear-gradient(90deg, rgba(7,84,115,1) 0%, rgba(84,115,70,1) 33%, rgba(166,157,31,1) 67%, rgba(242,203,7,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(7,84,115,1) 0%, rgba(84,115,70,1) 33%, rgba(166,157,31,1) 67%, rgba(242,203,7,1) 100%);
+background: linear-gradient(90deg, rgba(7,84,115,1) 0%, rgba(84,115,70,1) 33%, rgba(166,157,31,1) 67%, rgba(242,203,7,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#075473",endColorstr="#f2cb07",GradientType=1);
 
 }
 
